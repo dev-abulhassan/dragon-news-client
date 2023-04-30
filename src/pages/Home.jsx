@@ -9,10 +9,10 @@ const Home = () => {
          <Container>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
-               <Nav className="mx-auto">
-                  <Link>Home</Link>
-                  <Link>About</Link>
-                  <Link>Career</Link>
+               <Nav className="mx-auto ">
+                  <Link to={'/'} className='text-decoration-none me-2'>Home</Link>
+                  <Link className='text-decoration-none me-2'>About</Link>
+                  <Link className='text-decoration-none me-2'>Career</Link>
                </Nav>
             </Navbar.Collapse>
 
