@@ -4,10 +4,11 @@ import Footer from '../components/Footer';
 import { Col, Container, Row } from 'react-bootstrap';
 import LeftNav from '../components/LeftNav';
 import RightNav from '../components/RightNav';
+import { Outlet } from 'react-router-dom';
 
 const Main = () => {
    return (
-      <div>
+      <div >
          <Header></Header>
          <Container>
             <Row>
@@ -15,7 +16,7 @@ const Main = () => {
                   <LeftNav></LeftNav>
                </Col>
                <Col lg={6}>
-                 <h2>Wait bor, im comming....</h2>
+                <Outlet></Outlet>
                </Col>
                <Col lg={3}>
                   <RightNav></RightNav>

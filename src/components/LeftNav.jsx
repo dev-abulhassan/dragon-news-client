@@ -2,8 +2,8 @@ import React from 'react';
 
 const LeftNav = () => {
    return (
-      <div>
-         Left Nav
+      <div className='mt-5'>
+        <h2>Left content</h2>
       </div>
    );
 };
